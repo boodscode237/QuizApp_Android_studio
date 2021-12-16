@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5sp"
+    tools:context=".BlankFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Какой метод запускает программу на Java?"/>
+            <TextView
+                android:id="@+id/textq1o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq1q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Любой, его можно задавать на настройках проекта"/>
+                <RadioButton
+                    android:id="@+id/rq1q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Метод main"/>
+                <RadioButton
+                    android:id="@+id/rq1q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="запуск через компилацию"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Для чего нужно использовать Java?"/>
+            <TextView
+                android:id="@+id/textq2o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq2q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="для разработки сайтов"/>
+                <RadioButton
+                    android:id="@+id/rq2q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="для создание программ для пк"/>
+                <RadioButton
+                    android:id="@+id/rq2q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="для создание игр"/>
+                <RadioButton
+                    android:id="@+id/rq2q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="для разработки приложения"/>
+                <RadioButton
+                    android:id="@+id/rq2q5"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="для всего перечисленного"/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to declare an Array?"/>
+            <TextView
+                android:id="@+id/textq3o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq3q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int a = new int[] {1, 2, 3, 4, 5};"/>
+                <RadioButton
+                    android:id="@+id/rq3q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int a = new int[] {1, 2, 3, 4, 5};"/>
+                <RadioButton
+                    android:id="@+id/rq3q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int[] a = new int[] {1, 2, 3, 4, 5};"/>
+                <RadioButton
+                    android:id="@+id/rq3q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int[] a = new int {1, 2, 3, 4, 5};"/>
+                <RadioButton
+                    android:id="@+id/rq3q5"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int[] a = int[] {1, 2, 3, 4, 5};"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is a method's argument?"/>
+            <TextView
+                android:id="@+id/textq4o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq4q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="variable where is written the result of the working method."/>
+                <RadioButton
+                    android:id="@+id/rq4q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="value or variable given to a method and participating to its work."/>
+                <RadioButton
+                    android:id="@+id/rq4q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the value after the keyword return"/>
+                <RadioButton
+                    android:id="@+id/rq4q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="any variable participating to the method's work"/>
+                <RadioButton
+                    android:id="@+id/rq4q5"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="variable declared in the method's body"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is OOP?"/>
+            <TextView
+                android:id="@+id/textq5o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq5q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Way of programming, representing programs as objects, which are
+                    each a copy of a class. The classes show the hierarchy of the inheritance"/>
+                <RadioButton
+                    android:id="@+id/rq5q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Way of programming, representing programs as objects, which are
+                    each a copy of a class. The classes show the hierarchy of the inheritance"/>
+                <RadioButton
+                    android:id="@+id/rq5q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Way of programming, representing programs as objects, which are
+                    each a copy of a class. The classes show the hierarchy of the inheritance"/>
+                <RadioButton
+                    android:id="@+id/rq5q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Way of programming, representing programs as objects, which are
+                    each a copy of a class. The classes show the hierarchy of the inheritance"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Why do we use the operator NEW?"/>
+            <TextView
+                android:id="@+id/textq6o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq6q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To create a new variable"/>
+                <RadioButton
+                    android:id="@+id/rq6q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to announce a new class"/>
+                <RadioButton
+                    android:id="@+id/rq6q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to instantiate a class"/>
+                <RadioButton
+                    android:id="@+id/rq6q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to oppose the keyword OLD"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is the difference between static method and class method?"/>
+            <TextView
+                android:id="@+id/textq7o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rq7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rq7q1"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To create a new variable"/>
+                <RadioButton
+                    android:id="@+id/rq7q2"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to announce a new class"/>
+                <RadioButton
+                    android:id="@+id/rq7q3"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to instantiate a class"/>
+                <RadioButton
+                    android:id="@+id/rq7q4"
+                    android:checked="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to oppose the keyword OLD"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/scopeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Press answer to see the result"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Answer"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
